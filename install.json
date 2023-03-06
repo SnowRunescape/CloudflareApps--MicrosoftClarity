@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json.schemastore.org/install",
+  "resources": {
+    "body": [
+      {
+        "type": "script",
+        "src": "./src/index.js"
+      }
+    ]
+  },
+  "options": {
+    "properties":{
+      "clarity_id":{
+        "order": 0,
+        "title": "Microsoft Clarity Id",
+        "placeholder": "qxqw72sqlw",
+        "type": "string",
+        "required": true
+      }
+    }
+  }
+}
